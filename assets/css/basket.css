@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headernavbar {
+  width: 100%;
+  min-height: 67px;
+  position: relative;
+  z-index: 1;
+  position: fixed;
+  background-color: #ffffff;
+}
+#headernavbar .allnavdiv .menu {
+  margin-top: 17px;
+  border-radius: 0px;
+}
+#headernavbar .allnavdiv .icon {
+  width: 10%;
+  display: flex;
+  gap: 20px;
+}
+#headernavbar .allnavdiv .icon a {
+  position: relative;
+}
+#headernavbar .allnavdiv .icon a i {
+  color: black;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+#headernavbar .allnavdiv .icon a i:hover {
+  cursor: pointer;
+  color: #6c7ae0;
+}
+#headernavbar .allnavdiv .icon a #dispLength {
+  position: absolute;
+  top: -15px;
+  color: #fff;
+  background-color: #6c7ae0;
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  right: -10px;
+}
+#headernavbar .allnavdiv .allnav {
+  max-width: 83%;
+  justify-content: space-between;
+}
+#headernavbar .allnavdiv .allnav ul {
+  gap: 25px;
+}
+#headernavbar .allnavdiv .allnav ul .dropdownli a {
+  color: #6C7AE0;
+}
+#headernavbar .allnavdiv .allnav ul .dropdownli ul li a {
+  color: black;
+}
+#headernavbar .allnavdiv .allnav ul .dropdownli ul li a:hover {
+  background-color: white;
+  color: #6C7AE0;
+}
+#headernavbar .allnavdiv .allnav ul li a {
+  color: black;
+}
+#headernavbar .allnavdiv .allnav ul li a:hover {
+  color: #6C7AE0;
+}
+
+#product-OVERVIEW {
+  width: 100%;
+  min-height: 700px;
+  background-color: #6C7AE0;
+}
+#product-OVERVIEW #getProduct {
+  display: flex;
+  gap: 35px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+#product-OVERVIEW #getProduct .div {
+  width: 250px;
+  height: 20rem;
+}
+#product-OVERVIEW #getProduct .div img {
+  width: 100%;
+}
+#product-OVERVIEW #getProduct .div button {
+  background-color: #6C7AE0;
+  cursor: pointer;
+  border-color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s seson;
+}
+#product-OVERVIEW #getProduct .div button:hover {
+  background-color: black;
+}
+#product-OVERVIEW .buttons {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+#product-OVERVIEW .buttons button {
+  margin: 1rem;
+  color: #fff;
+  background-color: black;
+  transition: 1s;
+  border-radius: 30px;
+  padding: 10px;
+}
+#product-OVERVIEW .buttons button:hover {
+  background-color: #fff;
+  color: black;
+}
